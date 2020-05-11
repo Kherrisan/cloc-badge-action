@@ -1,0 +1,13 @@
+name: 'Code Lines Badge'
+description: 'Generate the badges for the code line of your repositoryヾ(^▽^ヾ)'
+inputs:
+  path:  # id of input
+    description: 'The file path of the generated badge file.'
+    required: false
+    default: 'cloc.svg'
+outputs:
+  path: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
