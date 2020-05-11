@@ -15,4 +15,4 @@ Generating badge for line of codes with Github action.
 ![](https://raw.githubusercontent.com/Kherrisan/cloc-badge-action/master/cloc.svg)
 ```
 
-You can refer to the [workflow page](https://github.com/Kherrisan/cloc-badge-action/blob/master/.github/workflows/blank.yml) of this repository~
+[Demo workflow file](https://github.com/Kherrisan/cloc-badge-action/blob/master/.github/workflows/blank.yml)
