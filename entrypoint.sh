@@ -7,7 +7,7 @@ max=`cloc .|grep -A 2 code|sed -n '3p'`
 lang=`echo $max|awk '{print $1}'`
 line=`echo $max|awk '{print $5}'`
 echo $lang,$line
-wget https://img.shields.io/badge/$lang-$line-green?style=for-the-badge&logo=appveyor -O cloc.svg
+wget https://img.shields.io/badge/$lang-$line-green?style=for-the-badge -O cloc.svg
 
 git config --global user.email "push@no-reply.github.com"
 git config --global user.name "GitHub Push Action"
