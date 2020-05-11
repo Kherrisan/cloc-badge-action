@@ -6,7 +6,8 @@ COPY entrypoint.sh /entrypoint.sh
 
 RUN apt-get update && apt-get install -y \
     cloc \
-    wget
+    wget \
+    git
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
