@@ -23,5 +23,5 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Code Lines Badge
-      uses: Kherrisan/cloc-badge-action@1.0.0
+      uses: Kherrisan/cloc-badge-action@1.0.1
 
