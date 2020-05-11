@@ -7,7 +7,7 @@ max=`cloc .|grep -A 2 code|sed -n '3p'`
 if [ `echo $max|awk '{print NF}'` -eq 5 ]; then
     lang=`echo $max|awk '{print $1}'`
 else
-    lang=`echo $max|awk '{print $1$2}'`
+    lang=`echo $max|awk '{print $1_$2}'`
 fi
 
 line=`echo $max|awk '{print $NF}'`
